@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 
-const folderPath = '/Guvi/NodeJs-TASK/timestamp';
+const folderPath = './timestamp';
 
 const date = new Date().toString() // Format: YYYYMMDDTHHmmss;
 
